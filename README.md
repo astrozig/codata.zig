@@ -1,6 +1,6 @@
-# codata-zig
+# codata.zig
 
-`codata-zig` is a Zig library providing physical constants and reference data based on the [CODATA](https://codata.org/about-codata/) recommended values.
+`codata.zig` is a Zig library providing physical constants and reference data based on the [CODATA](https://codata.org/about-codata/) recommended values.
 
 ## Overview
 
@@ -18,27 +18,6 @@ Fetch this repository :
 
 ```sh
 $ zig fetch --save git+https://github.com/astrozig/codata.zig
-```
-
-Add it to your `build.zig` :
-
-```diff
-const std = @import("std");
-+const codata = @import("codata_zig");
-
-pub fn build(b: *std.Build) void {
-    // -- snip --
-
-+    const codata_dep = b.dependency("codata_zig", .{
-+        .target = target,
-+        .optimize = optimize,
-+    });
-
-    // Where `exe` represents your executable/library to link to
-+    exe.linkLibrary(codata_dep.artifact("codata_zig"));
-
-    // -- snip --
-}
 ```
 
 ## Usage
