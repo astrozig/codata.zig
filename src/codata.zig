@@ -197,7 +197,7 @@ pub const electron_triton_mass_ratio: f64 = 0.0001819200062327;
 pub const electron_volt: f64 = 0.0000000000000000001602176634;
 pub const electron_volt_atomic_mass_unit_relationship: f64 = 0.00000000107354410083;
 pub const electron_volt_hartree_relationship: f64 = 0.036749322175665;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const electron_volt_hertz_relationship: f64 = 241798924200000;
 /// unit: m KK
@@ -209,7 +209,7 @@ pub const electron_volt_joule_relationship: f64 = 0.0000000000000000001602176634
 /// unit: m
 /// is_exact: true
 pub const electron_volt_kelvin_relationship: f64 = 11604.51812;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const electron_volt_kilogram_relationship: f64 = 0.000000000000000000000000000000000001782661921;
 /// unit: m
@@ -264,7 +264,7 @@ pub const helion_relative_atomic_mass: f64 = 3.014932246932;
 /// uncertainty: 0.000000000023
 pub const helion_shielding_shift: f64 = 0.000059967029;
 pub const hertz_atomic_mass_unit_relationship: f64 = 0.000000000000000000000004439821659;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const hertz_electron_volt_relationship: f64 = 0.000000000000004135667696;
 pub const hertz_hartree_relationship: f64 = 0.00000000000000015198298460574;
@@ -277,20 +277,20 @@ pub const hertz_joule_relationship: f64 = 0.000000000000000000000000000000000662
 /// unit: m
 /// is_exact: true
 pub const hertz_kelvin_relationship: f64 = 0.00000000004799243073;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const hertz_kilogram_relationship: f64 = 0.000000000000000000000000000000000000000000000000007372497323;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const hyperfine_transition_frequency_of_cs_133: f64 = 9192631770;
 /// uncertainty: 0.000000021
 pub const inverse_fine_structure_constant: f64 = 137.035999177;
 pub const inverse_meter_atomic_mass_unit_relationship: f64 = 0.00000000000000133102504824;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const inverse_meter_electron_volt_relationship: f64 = 0.000001239841984;
 pub const inverse_meter_hartree_relationship: f64 = 0.000000045563352529132;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const inverse_meter_hertz_relationship: f64 = 299792458;
 /// unit: m
@@ -299,7 +299,7 @@ pub const inverse_meter_joule_relationship: f64 = 0.0000000000000000000000001986
 /// unit: m
 /// is_exact: true
 pub const inverse_meter_kelvin_relationship: f64 = 0.01438776877;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const inverse_meter_kilogram_relationship: f64 = 0.000000000000000000000000000000000000000002210219094;
 /// unit: m K
@@ -309,11 +309,11 @@ pub const inverse_of_conductance_quantum: f64 = 12906.40372;
 /// is_exact: true
 pub const josephson_constant: f64 = 483597848400000;
 pub const joule_atomic_mass_unit_relationship: f64 = 6700535247.1;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const joule_electron_volt_relationship: f64 = 6241509074000000000;
 pub const joule_hartree_relationship: f64 = 229371227839690000;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const joule_hertz_relationship: f64 = 1509190179000000000000000000000000;
 /// unit: m KK
@@ -322,15 +322,15 @@ pub const joule_inverse_meter_relationship: f64 = 5034116567000000000000000;
 /// unit: m
 /// is_exact: true
 pub const joule_kelvin_relationship: f64 = 72429705160000000000000;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const joule_kilogram_relationship: f64 = 0.00000000000000001112650056;
 pub const kelvin_atomic_mass_unit_relationship: f64 = 0.000000000000092510872884;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const kelvin_electron_volt_relationship: f64 = 0.00008617333262;
 pub const kelvin_hartree_relationship: f64 = 0.0000031668115634564;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const kelvin_hertz_relationship: f64 = 20836619120;
 /// unit: m KK
@@ -339,15 +339,15 @@ pub const kelvin_inverse_meter_relationship: f64 = 69.50348004;
 /// unit: m
 /// is_exact: true
 pub const kelvin_joule_relationship: f64 = 0.00000000000000000000001380649;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const kelvin_kilogram_relationship: f64 = 0.0000000000000000000000000000000000000001536179187;
 pub const kilogram_atomic_mass_unit_relationship: f64 = 602214075370000000000000000;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const kilogram_electron_volt_relationship: f64 = 560958860300000000000000000000000000;
 pub const kilogram_hartree_relationship: f64 = 20614857887415000000000000000000000;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const kilogram_hertz_relationship: f64 = 135639248900000000000000000000000000000000000000000;
 /// unit: m KK
@@ -370,7 +370,7 @@ pub const loschmidt_constant_27315_k_101325_kpa: f64 = 2686780111000000000000000
 /// unit: m KK^-1
 /// is_exact: true
 pub const luminous_efficacy: f64 = 683;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const mag_flux_quantum: f64 = 0.000000000000002067833848;
 /// unit: m KK^-1-1-42-
@@ -499,7 +499,7 @@ pub const planck_constant: f64 = 0.000000000000000000000000000000000662607015;
 /// is_exact: true
 pub const planck_constant_in_ev_hz: f64 = 0.000000000000004135667696;
 pub const planck_length: f64 = 0.00000000000000000000000000000000001616255;
-/// unit: m 
+/// unit: m
 /// uncertainty: 0.00000000000024
 pub const planck_mass: f64 = 0.00000002176434;
 /// unit: m K
@@ -601,10 +601,10 @@ pub const speed_of_light_in_vacuum: f64 = 299792458;
 /// unit: m KK^-
 /// is_exact: true
 pub const standard_acceleration_of_gravity: f64 = 9.80665;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const standard_atmosphere: f64 = 101325;
-/// unit: m 
+/// unit: m
 /// is_exact: true
 pub const standard_state_pressure: f64 = 100000;
 /// unit: m KK^-1-1-4
@@ -616,7 +616,7 @@ pub const tau_electron_mass_ratio: f64 = 3477.23;
 /// unit: m K
 /// uncertainty: 0.12
 pub const tau_energy_equivalent: f64 = 1776.86;
-/// unit: m 
+/// unit: m
 /// uncertainty: 0.00000000000000000000000000000021
 pub const tau_mass: f64 = 0.00000000000000000000000000316754;
 pub const tau_mass_energy_equivalent: f64 = 0.000000000284684;

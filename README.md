@@ -2,13 +2,6 @@
 
 `codata-zig` is a Zig library providing physical constants and reference data based on the [CODATA](https://codata.org/about-codata/) recommended values.
 
-# TODO – codata-zig
-
-- [ ] CI/CD
-- [ ] Repo, branch rules
-- [ ] Add MIT license
-- [ ] Release tag
-
 ## Overview
 
 This library aims to provide accurate, up-to-date physical constants for scientific and engineering calculations in Zig, following the latest CODATA recommendations.
@@ -59,7 +52,9 @@ pub fn main() !void {
 }
 ```
 
-## Updating the library constants from new NIST files
+## Updating constants
+
+Generate new constants from src file:
 
 ```bash
 zig run src/gen.zig -- data/CODATA_2022_adjustment.txt
