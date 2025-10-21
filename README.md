@@ -20,6 +20,26 @@ Fetch this repository :
 $ zig fetch --save git+https://github.com/astrozig/codata.zig
 ```
 
+Add it to your `build.zig` :
+
+```diff
+const std = @import("std");
+
+pub fn build(b: *std.Build) void {
+    // -- snip --
+
++   const codata_dep = b.dependency("codata_zig", .{
++       .target = target,
++       .optimize = optimize,
++   });
+
+    // Where `exe` represents your executable/library to link to
++   exe.root_module.addImport("codata", codata_dep.module("codata"));
+
+    // -- snip --
+}
+```
+
 ## Usage
 
 ```zig

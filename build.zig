@@ -5,7 +5,7 @@ pub fn build(b: *std.Build) void {
     const target = b.standardTargetOptions(.{});
 
     const lib_mod = b.addModule("codata", .{
-        .root_source_file = b.path("src/lib.zig"),
+        .root_source_file = b.path("src/codata.zig"),
         .target = target,
         .optimize = optimize,
     });
