@@ -43,7 +43,7 @@ pub fn build(b: *std.Build) void {
 ## Usage
 
 ```zig
-const codata = @import("codata-zig");
+const codata = @import("codata");
 
 pub fn main() !void {
     const c = codata.speed_of_light_in_vacuum; // Example
